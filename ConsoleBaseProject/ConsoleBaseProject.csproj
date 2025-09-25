@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleBaseProject.ConsoleKalkulator</StartupObject>
+    <StartupObject>ConsoleBaseProject.LoopingNamaSiswa</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,10 @@
   <ItemGroup>
     <Compile Include="ConsoleKalkulator.cs" />
     <Compile Include="dataumur.cs" />
+    <Compile Include="LoopingBilanganGanjil.cs" />
+    <Compile Include="LoopingBilanganGenap.cs" />
+    <Compile Include="LoopingNamaSiswa.cs" />
+    <Compile Include="LoopingPerkalian.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
